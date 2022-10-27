@@ -1,0 +1,260 @@
+/*body*/
+.navbar{
+    display: flex;
+}
+ #body::before{
+    content: "";
+    position: absolute;
+    background: url('images/back5.jpg');
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8s;
+}
+.navbar{
+    position: relative;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+/*navabr*/
+.navbar #logo{
+display: flex;
+height: 150px;
+width: 150px;
+margin: -5px 24px;
+padding: 4px;
+opacity: 1.5;
+}
+.navlist{
+    display: flex;
+    width: 50%;
+} 
+#rightnav{
+    display: flex;
+}
+#rightnav .list{
+    display: flex;
+}
+#rightnav .list li{
+    list-style: none;
+}
+#rightnav .list li a{
+    background-color: lightcyan;
+    display: block;
+    color: red;
+    border: 2px solid white;
+    text-decoration: none;
+margin: 5px 20px;
+padding: 13px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: dark grey;
+border-radius: 17px;
+}
+#rightnav .list li a:hover{
+    background-color: white;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section #heading1{
+color: white;
+font-size: 55px;
+}
+.section #heading2{
+    font-size: 31px;
+    color: white;
+}
+.section #heading3{
+    color: white;
+}
+.section .btn{
+    height: 25px;
+    flex-direction: row;
+    background-color: red;
+}
+.section .btn:hover{
+    cursor: pointer;
+}
+.section2::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid grey;
+    margin-top: 200px;
+} 
+.section2 .heading1{
+    color: white;
+    margin: 20px 20px;
+font-size: 49px;}
+.section2 #para{
+    color: white;
+}
+.section2 .container img{
+    height: 357px;
+    width: 411px;
+}
+#section3::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid grey;
+}
+#section3 .items{
+    color: white;
+    margin: 40px 40px;
+}
+#section3 .items .heading1{
+    font-size: 35px;
+}
+#section3 .items3 img{
+    margin:100px;
+    height: 221px;
+    width: 228px;
+}
+#section4::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid grey;
+}
+#section4 .divided{
+    margin: 100px;
+}
+#section4 .divided .heads{
+    color: white;
+    font-size: 35px;
+}
+#section4 .divided .params{
+    color: white;
+}
+#section5::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid grey;
+}
+#section5 .faq .hed{
+    color: white;
+    font-size: 30px;
+}
+#section5 .buttons{
+    display: flex;
+    flex-direction: column;
+}
+#section5 .buttons .button1{
+    height: 53px;
+    width: 270px;
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#section5 .buttons .button2{
+    height: 53px;
+    width: 270px;
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#section5 .buttons .button3{
+    height: 53px;
+    width: 270px;
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#section5 .buttons .button4{
+    height: 53px;
+    width: 270px;
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#section5 .buttons .button5{
+    height: 53px;
+    width: 270px;
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#section5 .buttons .button6{
+    height: 53px;
+    width: 270px;
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#section5 .buttons .button1:hover{
+    cursor: pointer;
+}
+#section5 .buttons .button2:hover{
+    cursor: pointer;
+}
+#section5 .buttons .button3:hover{
+    cursor: pointer;
+}
+#section5 .buttons .button4:hover{
+    cursor: pointer;
+}
+#section5 .buttons .button5:hover{
+    cursor: pointer;
+}
+#section5 .buttons .button6:hover{
+    cursor: pointer;
+}
+#section5 .lastdiv #lasthead{
+    color: white;
+}
+#section5 .lastdiv .divisor{
+    margin: 10px 134px;
+    height: 70px;
+}
+#section5 .lastdiv .divisor .lastbtn{
+    background-color: red;
+    height: 25px;
+}
+#section5 .lastdiv .divisor .lastbtn:hover{
+    cursor: pointer;
+}
